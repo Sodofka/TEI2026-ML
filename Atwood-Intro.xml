@@ -42,7 +42,7 @@
 					mixed the genders; this one is unisexual. That the editors have chosen to bring
 					together, within the same covers, fifteen writers as diverse as <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/PJ6v6xKUJ4x">Dorothy Parker</persName>
 					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/05ucg6rjOSb">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/Ywxr9msYmwj">Marianne Moore</persName> and <persName key="West, Rebecca, 1892-1983" ref="http://viaf.org/viaf/108321467" ana="webannotation:http://temp.lincsproject.ca/9XunMGnkl0v">Rebecca West</persName>, <persName key="Dinesen, Isak, 1885-1962" ref="http://viaf.org/viaf/121643918" ana="webannotation:http://temp.lincsproject.ca/vhKwPPJtQha">Isak Dinesen</persName> and Lillian
-					Hellman, <persName key="McCarthy, Mary, 1912-1989." ref="http://viaf.org/viaf/105465037" ana="webannotation:http://temp.lincsproject.ca/LPa3dlbyXUU">Mary McCarthy</persName> and Katherine Anne Porter, over what, in some cases,
+					Hellman, <persName key="McCarthy, Mary, 1912-1989." ref="http://viaf.org/viaf/105465037" ana="webannotation:http://temp.lincsproject.ca/LPa3dlbyXUU">Mary McCarthy</persName> and <persName key="Porter, Katherine Anne, 1890-1980." ref="http://viaf.org/viaf/56620604" ana="webannotation:http://temp.lincsproject.ca/Kr3ff0WKiQR">Katherine Anne Porter</persName>, over what, in some cases,
 					would doubtless be their dead bodies, merely because they share a double-X
 					chromosome, is not due to a sudden mental aberration. Rather it has been the
 					result of readers' requests. Why not a gathering of women writers? the editors
@@ -153,16 +153,16 @@
 					writer ever interviewed: "But haven't you found that being a woman presented to
 					you, as an artist, certain special problems?" </p>
 				<p> Katherine Anne Porter’s reply—“I think that’S very true and very right"—is by no
-					means the only one possible. Some, such as Mary McCarthy, are clearly impatient
+					means the only one possible. Some, such as <persName key="McCarthy, Mary, 1912-1989." ref="http://viaf.org/viaf/105465037" ana="webannotation:http://temp.lincsproject.ca/Z19eMXZe373">Mary McCarthy</persName>, are clearly impatient
 					with the question itself. McCarthy accepts some version of the "masculine"
 					versus the "feminine" sensibility, but assigns herself firmly with the former. </p>
 				<p> INTERVIEWER: What do you think of women writers, or do you think the category
 					"woman writer" should not be made? </p>
 				<p> MCCARTHY: Some women writers make it. I mean, there's a certain kind of woman
 					writer who's a capital W, capital W. Virginia Woolf certainly was one, and
-					Katherine Mansfield was one, and Elizabeth Bowen is one. Katherine Anne Porter?
+					Katherine Mansfield was one, and Elizabeth Bowen is one. <persName key="Porter, Katherine Anne, 1890-1980." ref="http://viaf.org/viaf/56620604" ana="webannotation:http://temp.lincsproject.ca/PHkAoUeu6cG">Katherine Anne Porter</persName>?
 					Don't think she really is—I mean, her writing is certainly very feminine, but I
-					would say that there wasn't this “WW” business in Katherine Anne Porter. Who
+					would say that there wasn't this “WW” business in <persName key="Porter, Katherine Anne, 1890-1980." ref="http://viaf.org/viaf/56620604" ana="webannotation:http://temp.lincsproject.ca/0ZzA9xL5Dw7">Katherine Anne Porter</persName>. Who
 					else? There's Eudora Welty, who's certainly not a "Woman Winter," though she's
 					become one lately. </p>
 				<p> INTERVIEWER: What is it that happens to make this change? </p>
@@ -1038,6 +1038,362 @@
         "type": "crm:E21_Person",
         "label": "McCarthy, Mary, 1912-1989.",
         "description": "McCarthy, Mary"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Z19eMXZe373">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Z19eMXZe373",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:37:08.867Z",
+    "creator": {
+        "id": "https://github.com/sodofka",
+        "type": "crm:E21_Person",
+        "name": "Michael Lužný"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/q6HJC12Nvmj",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/q6HJC12Nvmj/selector/textPosition/hMQd0afWWOM",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9167,
+                "end": 9180,
+                "refinedBy": {
+                    "id": "/target/q6HJC12Nvmj/selector/textQuote/bQixNa05VEk",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Mary McCarthy",
+                    "prefix": " Some, such as",
+                    "suffix": " are clearly impatient\n\t\t\t\t\twith the question itself"
+                }
+            },
+            {
+                "id": "/target/q6HJC12Nvmj/selector/css/EQwreTXylUn",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Z19eMXZe373]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/105465037",
+        "type": "crm:E21_Person",
+        "label": "McCarthy, Mary, 1912-1989.",
+        "description": "McCarthy, Mary"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Kr3ff0WKiQR">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Kr3ff0WKiQR",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:37:30.836Z",
+    "creator": {
+        "id": "https://github.com/sodofka",
+        "type": "crm:E21_Person",
+        "name": "Michael Lužný"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/P422JiEUM31",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/P422JiEUM31/selector/textPosition/IjMicigSLpI",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 497,
+                "end": 518,
+                "refinedBy": {
+                    "id": "/target/P422JiEUM31/selector/textQuote/njMTzuiO6Iu",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Katherine Anne Porter",
+                    "prefix": " That the editors have chosen to bring\n\t\t\t\t\ttogether, within the same covers, fifteen writers as diverse as Dorothy Parker\n\t\t\t\t\tand Nadine Gordimer, Marianne Moore and Rebecca West, Isak Dinesen and Lillian\n\t\t\t\t\tHellman, Mary McCarthy and",
+                    "suffix": " over what, in some cases,\n\t\t\t\t\twould doubtless be their dead bodies, merely because they share a double-X\n\t\t\t\t\tchromosome, is not due to a sudden mental aberration"
+                }
+            },
+            {
+                "id": "/target/P422JiEUM31/selector/css/9EKTld4CD1K",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Kr3ff0WKiQR]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/56620604",
+        "type": "crm:E21_Person",
+        "label": "Porter, Katherine Anne, 1890-1980.",
+        "description": "Porter, Katherine Anne"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/PHkAoUeu6cG">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/PHkAoUeu6cG",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:37:30.837Z",
+    "creator": {
+        "id": "https://github.com/sodofka",
+        "type": "crm:E21_Person",
+        "name": "Michael Lužný"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/NRRTKkl0IHk",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/NRRTKkl0IHk/selector/textPosition/AHBNsE4Qud2",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9718,
+                "end": 9739,
+                "refinedBy": {
+                    "id": "/target/NRRTKkl0IHk/selector/textQuote/cokz34ZngNc",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Katherine Anne Porter",
+                    "prefix": "",
+                    "suffix": "\n\t\t\t\t\tDon't think she really is—I mean, her writing is certainly very feminine, but I\n\t\t\t\t\twould say that there wasn't this “WW” business in Katherine Anne Porter"
+                }
+            },
+            {
+                "id": "/target/NRRTKkl0IHk/selector/css/UQIQnQL5xOt",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/PHkAoUeu6cG]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/56620604",
+        "type": "crm:E21_Person",
+        "label": "Porter, Katherine Anne, 1890-1980.",
+        "description": "Porter, Katherine Anne"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/0ZzA9xL5Dw7">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/0ZzA9xL5Dw7",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:37:30.838Z",
+    "creator": {
+        "id": "https://github.com/sodofka",
+        "type": "crm:E21_Person",
+        "name": "Michael Lužný"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/VWI9UeBIOM8",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/VWI9UeBIOM8/selector/textPosition/Nh60TniFGPN",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9881,
+                "end": 9902,
+                "refinedBy": {
+                    "id": "/target/VWI9UeBIOM8/selector/textQuote/eXDZKoOJ7hz",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Katherine Anne Porter",
+                    "prefix": " Katherine Anne Porter?\n\t\t\t\t\tDon't think she really is—I mean, her writing is certainly very feminine, but I\n\t\t\t\t\twould say that there wasn't this “WW” business in",
+                    "suffix": " Who\n\t\t\t\t\telse? There's Eudora Welty, who's certainly not a \"Woman Winter,\" though she's\n\t\t\t\t\tbecome one lately"
+                }
+            },
+            {
+                "id": "/target/VWI9UeBIOM8/selector/css/cBPc8KC8g0L",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/0ZzA9xL5Dw7]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/56620604",
+        "type": "crm:E21_Person",
+        "label": "Porter, Katherine Anne, 1890-1980.",
+        "description": "Porter, Katherine Anne"
     },
     "P2_has_type": [
         "oa:identifying"
