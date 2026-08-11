@@ -41,7 +41,7 @@
 					interviews with writers is a departure from the norm. Previous collections have
 					mixed the genders; this one is unisexual. That the editors have chosen to bring
 					together, within the same covers, fifteen writers as diverse as <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/PJ6v6xKUJ4x">Dorothy Parker</persName>
-					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/05ucg6rjOSb">Nadine Gordimer</persName>, Marianne Moore and Rebecca West, Isak Dinesen and Lillian
+					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/05ucg6rjOSb">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/Ywxr9msYmwj">Marianne Moore</persName> and Rebecca West, Isak Dinesen and Lillian
 					Hellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,
 					would doubtless be their dead bodies, merely because they share a double-X
 					chromosome, is not due to a sudden mental aberration. Rather it has been the
@@ -127,7 +127,7 @@
 					but it certainly was at the time, and I didn't much like it. I dealt with it the
 					same way I deal with everything. I just tended my own garden, didn't pay much
 					attention, be- haved—I suppose—deviously. (Pp. 324-325) </p>
-				<p> I think of Marianne Moore, living decorously with her mother and her "dark"
+				<p> I think of <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/oaVDdow0cAr">Marianne Moore</persName>, living decorously with her mother and her "dark"
 					furniture, her height of social rebellion the courageous ignoring of the need
 					for chaperones at Village literary parties, and wonder how many male writers
 					could have lived such a circumscribed life and survived the image. </p>
@@ -593,6 +593,184 @@
         "type": "crm:E21_Person",
         "label": "Gordimer, Nadine, 1923-2014.",
         "description": "Gordimer, Nadine"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/Ywxr9msYmwj">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/Ywxr9msYmwj",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:35:15.693Z",
+    "creator": {
+        "id": "https://github.com/sodofka",
+        "type": "crm:E21_Person",
+        "name": "Michael Lužný"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/YKXwFvUsDmD",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/YKXwFvUsDmD/selector/textPosition/xiPfXhuWivf",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 407,
+                "end": 421,
+                "refinedBy": {
+                    "id": "/target/YKXwFvUsDmD/selector/textQuote/aDNGzRKxZf4",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Marianne Moore",
+                    "prefix": " That the editors have chosen to bring\n\t\t\t\t\ttogether, within the same covers, fifteen writers as diverse as Dorothy Parker\n\t\t\t\t\tand Nadine Gordimer,",
+                    "suffix": "and Rebecca West, Isak Dinesen and Lillian\n\t\t\t\t\tHellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,\n\t\t\t\t\twould doubtless be their dead bodies, merely because they share a double-X\n\t\t\t\t\tchromosome, is not due to a sudden mental aberration"
+                }
+            },
+            {
+                "id": "/target/YKXwFvUsDmD/selector/css/o8Or7Zdldyx",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/Ywxr9msYmwj]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/61562401",
+        "type": "crm:E21_Person",
+        "label": "Moore, Marianne, 1887-1972.",
+        "description": "Moore, Marianne, 1887-1972, poétesse"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/oaVDdow0cAr">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/oaVDdow0cAr",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:35:15.905Z",
+    "creator": {
+        "id": "https://github.com/sodofka",
+        "type": "crm:E21_Person",
+        "name": "Michael Lužný"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/SE0QTkIS46u",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/SE0QTkIS46u/selector/textPosition/JKhvPhPPtOh",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 7084,
+                "end": 7098,
+                "refinedBy": {
+                    "id": "/target/SE0QTkIS46u/selector/textQuote/LuZSYXLZ14E",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Marianne Moore",
+                    "prefix": " 324-325) \n\t\t\t\t I think of",
+                    "suffix": " living decorously with her mother and her \"dark\"\n\t\t\t\t\tfurniture, her height of social rebellion the courageous ignoring of the need\n\t\t\t\t\tfor chaperones at Village literary parties, and wonder how many male writers\n\t\t\t\t\tcould have lived such a circumscribed life and survived the image"
+                }
+            },
+            {
+                "id": "/target/SE0QTkIS46u/selector/css/UiJdkCFigvF",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/oaVDdow0cAr]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/61562401",
+        "type": "crm:E21_Person",
+        "label": "Moore, Marianne, 1887-1972.",
+        "description": "Moore, Marianne, 1887-1972, poétesse"
     },
     "P2_has_type": [
         "oa:identifying"
