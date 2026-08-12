@@ -77,7 +77,7 @@
 					included men; others said that most panels were male, with a woman dotted here
 					and there for decorative effect, like parsley. Jan Morris said that she was in
 					the process of transcending gender and was aiming at becoming a horse, to which
-					Nayantara Sahgal replied that she hoped it was an English horse, since in some
+					Nayantara Sahgal replied that she hoped it was an <rs key="English" ref="http://www.wikidata.org/entity/Q1860" ana="webannotation:http://temp.lincsproject.ca/V4WvIZqYAOz">English</rs> horse, since in some
 					other, poorer countries, horses were not treated very well. Which underlined,
 					for all of us, that there are categories other than male and female worth
 					considering. </p>
@@ -1486,6 +1486,95 @@
     },
     "P2_has_type": [
         "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/V4WvIZqYAOz">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/V4WvIZqYAOz",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:tagging",
+    "created": "2026-08-12T01:01:41.117Z",
+    "creator": {
+        "id": "https://github.com/sodofka",
+        "type": "crm:E21_Person",
+        "name": "Michael Lužný"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/iTqRbpEVy8E",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Sodofka/TEI2026-ML/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/iTqRbpEVy8E/selector/textPosition/MMjuz25TQSG",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3337,
+                "end": 3344,
+                "refinedBy": {
+                    "id": "/target/iTqRbpEVy8E/selector/textQuote/sB1r9N3AWbZ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "English",
+                    "prefix": " Jan Morris said that she was in\n\t\t\t\t\tthe process of transcending gender and was aiming at becoming a horse, to which\n\t\t\t\t\tNayantara Sahgal replied that she hoped it was an",
+                    "suffix": "horse, since in some\n\t\t\t\t\tother, poorer countries, horses were not treated very well"
+                }
+            },
+            {
+                "id": "/target/iTqRbpEVy8E/selector/css/jZewykEH6Uj",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/V4WvIZqYAOz]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q1860",
+        "type": "crm:E28_Conceptual_Object",
+        "label": "English",
+        "description": "West Germanic language"
+    },
+    "P2_has_type": [
+        "oa:tagging"
     ]
 }]]>
 				
